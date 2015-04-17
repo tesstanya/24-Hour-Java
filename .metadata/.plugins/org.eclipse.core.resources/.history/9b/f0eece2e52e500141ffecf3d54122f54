@@ -1,0 +1,14 @@
+class TestModems {
+	public static void main(String[] arguments) {
+		CableModem roadRunner = new CableModem();
+		DslModem bellSouth = new DslModem();
+		roadRunner.speed = 500000;
+		bellSouth.speed = 400000;
+		System.out.println("Trying the cable modem:");
+		roadRunner.displaySpeed();
+		roadRunner.connect();
+		System.out.println("Trying the DSL modem:");
+		bellSouth.displaySpeed();
+		bellSouth.connect();
+	}
+}
