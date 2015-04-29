@@ -2,10 +2,9 @@ public class CableModem extends Modem {
 	/* This class inherits variables and methods from the Modem class
 	by extending the Modem superclass */
 	
-	String method = "cable connection";
-	
-	public void connect() {
-		System.out.println("Connecting to the Internet . . .");
-		System.out.println("Using a " + method);
+	//constructor that passes a value to the variable
+	public CableModem() {
+		method = "cable connection";
 	}
+	
 }

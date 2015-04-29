@@ -1,0 +1,9 @@
+public class CableModem extends Modem {
+	/* This class inherits variables and methods from the Modem class
+	by extending the Modem superclass */
+	
+	public CableModem() {
+		method = "cable connection";
+	}
+	
+}

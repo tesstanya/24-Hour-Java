@@ -1,0 +1,7 @@
+public class AcousticModem extends Modem {
+
+	public void connect() {
+		System.out.println("Guitars can be acoustic "
+				+ "but can Modems be acoustic too? [Gasp!]");
+	}
+}
